@@ -1,0 +1,17 @@
+#Öznur Güngör - HW3
+
+age = int(input("How old are you?"))
+
+print("Your age is", age)
+
+if age >= 0 and age <= 1:
+    classification = "infant"
+elif age >= 10 and age <= 19:
+    classification = "adolescent"
+elif age > 0 and age < 19:
+    classification = "children"
+else:
+    classification = "adult"
+    
+print("You are", classification)
+
